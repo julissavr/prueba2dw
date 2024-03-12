@@ -72,7 +72,7 @@ ul li{
   border-radius: 40px;
 }
 
-#banners .btn-banner:hover{
+#products .btn-banner:hover{
 	background-color: var(--menu-hover);
 	border: 1px solid #c41034; 
 	color: #fff;
