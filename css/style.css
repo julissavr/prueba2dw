@@ -35,7 +35,12 @@ header{
 	font-size: 18px;
 	font-weight: 400;
 }
-
+.titulos{
+	font-weight: 400;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	color: var(--color-titulos)
+}
 ul li{
 	margin-bottom: 14px;
 }
@@ -46,6 +51,7 @@ ul li{
 #banners{
 	padding: 2%;
 }
+
 
 .btn-banner{
   background-color: #FFFFFF;
@@ -64,8 +70,24 @@ ul li{
 
 #banners .btn-banner:hover{
 	background-color: var(--menu-hover);
-	border: 1px solid #c41034;
+	border: 1px solid #c41034; 
+	color: #fff;
 }
+#banners p{
+	font-size: 17px;
+	font-weight: 300;
+	margin-top: 30px;
+}
+
+#banners{
+	border-bottom: 2px solid #eee;
+}
+#trademarks{
+	background-color:#FFFFFF;
+	padding-bottom: 30px;
+}
+
+
 footer{
 	background-color: #323232;
 	color: #bababa;
